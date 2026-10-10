@@ -23,3 +23,7 @@ export function createApp() {
   app.use(errorHandler);
   return app;
 }
+
+// VERCEL KE LIYE YE 2 LINES ZAROORI HAIN:
+const app = createApp();
+export default app;
