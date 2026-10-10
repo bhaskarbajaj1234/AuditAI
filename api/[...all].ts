@@ -1,3 +1,3 @@
-import app from "../BackEnd/src/app";
+import app from "../BackEnd/src/app.js";
 
 export default app;
